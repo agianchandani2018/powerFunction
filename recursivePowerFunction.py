@@ -51,8 +51,8 @@ def float_input(question):
 
 #--------------------------------------Main Program---------------------------------------
 		
-base = int_input("Enter a base: ")
-exponent = int_input("Enter an exponent: ")
+base = float_input("Enter a base: ")
+exponent = float_input("Enter an exponent: ")
 
 print("{} to the power of {} is {}".format(base, exponent, to_power(base, exponent)))
 
