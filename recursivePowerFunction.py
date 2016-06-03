@@ -4,8 +4,8 @@ def to_power(base, exponent):
 
 	if exponent > 0:
 	 	return base * to_power(base, exponent -1)
-	elif base == 0:
-		return 0 
+#	elif base == 0:
+#		return 0 
 	elif exponent < 0:
 		return("This program can't handle negative exponents")		
 
