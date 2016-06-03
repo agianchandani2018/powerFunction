@@ -47,14 +47,3 @@ def float_input(question):
 			print("Try again")
 			number = input(question)
 	return number			
-
-
-#--------------------------------------Main Program---------------------------------------
-		
-base = float_input("Enter a base: ")
-exponent = int_input("Enter an exponent: ")
-
-print("{} to the power of {} is {}".format(base, exponent, to_power(base, exponent)))
-
-
-

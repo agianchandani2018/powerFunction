@@ -1,7 +1,4 @@
-import to_power(base, exponent)	
-import int_input(question)
-import float_input(question)	
-
+from recursivePowerFunction import to_power
 
 print("{} to the power of {} is {}".format(0, 0, to_power(0, 0)))
 print("{} to the power of {} is {}".format(1, 2, to_power(1, 2)))
